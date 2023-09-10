@@ -11,10 +11,10 @@ class get_unscramble_callable(sys.modules[__name__].__class__):
 			pick_idx=my_cards.index(f)
 			pick_idxs.append(pick_idx)
 			del my_cards[pick_idx]
-			print(len(my_cards))
+			# print(len(my_cards))
 		pick_idxs = pick_idxs[:-1]
-		print(pick_idxs)
-		print(len(pick_idxs))
+		# print(pick_idxs)
+		# print(len(pick_idxs))
 		m=max_number//my_cards_len
 		rv=0
 		tg=51
